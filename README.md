@@ -14,7 +14,7 @@ npm install kfunc --save
 ```
 import Kfunc from 'kfunc'
 
-Kfunc.copyText('hello')
+let success = Kfunc.copyText('hello')
 ```
 
 <p>按需引入</p>
@@ -22,5 +22,16 @@ Kfunc.copyText('hello')
 ```
 import copyText from 'kfunc/copyText'
 
-copyText('hello')
+let success = copyText('hello')
+```
+
+### 静态文件引入
+
+```
+<script src="kfunc.js"></script>
+
+<script>
+    let success = Kfunc.copyText('hello')
+    console.log(success)
+</script>
 ```
