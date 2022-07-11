@@ -23,7 +23,7 @@ import copyText from 'kfunc/copyText'
 let success = copyText('hello')
 ```
 
-## 静态文件引入
+## 以静态文件方式引入
 
 ```
 <script src="kfunc.js"></script>
@@ -33,3 +33,12 @@ let success = copyText('hello')
     console.log(success)
 </script>
 ```
+
+# 函数列表
+
+## copyText(string)
+#### 复制文本到剪贴板
+### 接收的参数
+* \<string> 传入要复制的字符串
+### 返回
+* \<bool> 成功或失败的布尔值
