@@ -34,11 +34,11 @@ let success = copyText('hello')
 </script>
 ```
 
-# 函数列表
+## 函数列表
 
-## copyText(string)
-#### 复制文本到剪贴板
-### 接收的参数
+### copyText(string)
+##### 复制文本到剪贴板
+#### 接收的参数
 * \<string> 传入要复制的字符串
-### 返回
+#### 返回
 * \<bool> 成功或失败的布尔值
