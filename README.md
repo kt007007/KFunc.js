@@ -1,15 +1,13 @@
 # KFunc.js
-前端常用的工具函数。
+前端常用的函数集合。
 
-## 开始使用
-
-### 以NPM方式安装
+## 以NPM方式安装
 
 ```
 npm install kfunc --save
 ```
 
-<p>在模块中调用（以拷贝文字函数举例）</p>
+<p>在模块中调用（以拷贝文字函数举例）</p>
 
 ```
 import Kfunc from 'kfunc'
@@ -25,7 +23,7 @@ import copyText from 'kfunc/copyText'
 let success = copyText('hello')
 ```
 
-### 静态文件引入
+## 静态文件引入
 
 ```
 <script src="kfunc.js"></script>
